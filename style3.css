@@ -1,0 +1,50 @@
+body,html{
+    margin: auto;
+    height: 100%;
+}
+
+.image{
+    background-image: url('./image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(8px);
+    height: 100%;
+    background-position: center;
+}
+
+.container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 30rem;
+    height: 16rem;
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 8px ; 
+    position: relative;
+    bottom: 25rem;
+    font-size: 1.5rem;
+}
+
+button{
+    display: inline-block;
+    width: 5rem;
+    height: 2.5rem;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+input{
+    border: 1px solid red;
+    display: inline-block;
+    border-radius: 10px;
+    width: 16rem;
+    height: 2rem;
+}
+span{
+    color: red;
+}
+
